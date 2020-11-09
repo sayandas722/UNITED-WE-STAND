@@ -1,2 +1,3 @@
 # UNITED-WE-STAND
-Discord Server.
+
+Official Website of United We Stand
