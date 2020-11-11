@@ -92,11 +92,99 @@ li.dropdown {
   display: block;
 }
 
+
+
+
+
+
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </style>
   </head>
   <body style ="background-color: slateblue">
-    <div class="header">
-  <h2><b>:UNITED WE STAND:</b></h2>
+  <div class="navbar navbar-expand-lg navbar-light uws-primary>"
+    <div class="collapse navbar-collapse" id="navabarSupportedContent-4">
+      <div class ="navabr-nav m-auto">
+        <div class="text-center row">
+          <div class="col-lg-2 col-md-2">
+            <a class="navbar-brand d-inline-block align-top" href="/">
+              <img src="C:\Users\User\Desktop\web_dev\logo.jpg.jpeg" style="height:200px;">
+            </a>
+          </div>
+          <div class="col-lg-10 col-md-10 mt-3">
+            <h5 class="uws-font uws-secondary-text">UNITED WE STAND</h5>
+            <small class="uws-font uws-secondary-text">
+              "we all stand strong together .come join us."
+
+            </small>
+           </div>
+          </div>
+         </div>
+        </div>
+      </div>
+
+
+
+
 
 </div>
 
@@ -126,4 +214,36 @@ li.dropdown {
  <h1><b>      WELCOME TO OUR SERVER WEBSITE.    </b></h1>
   <p>This is our discord website.</p>
 
-    </body>
+
+
+
+
+
+
+  <h3>ENTER YOUR DETAILS BELOW.</h3>
+
+  <div>
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Enter Your Name.">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Enter Your last Name">
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="INDIA">INDIA</option>
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+
+
+      <label for="about you">ABOUT YOU</label>
+      <input type="text" id="fname" name="ABOUT YOU" placeholder="ABOUT YOU IN TWO LINES..">
+
+      </select>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
